@@ -140,7 +140,11 @@ const router = createRouter({
     {
       path: '/register',
       component: () => import('@/components/RegisterForm.vue')
-    }
+    },
+    {
+      path: '/design-system-mockup',
+      component: () => import('../views/DesignSystemMockup.vue')
+    },
   ]
 })
 
